@@ -1,0 +1,25 @@
+{
+  "name": "todo-sorter",
+  "version": "1.0.0",
+  "description": "Microsoft ToDo list sorter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mikko Harju",
+  "license": "MIT",
+  "devDependencies": {
+    "shadow-cljs": "^2.11.4"
+  },
+  "dependencies": {
+    "@azure/msal-browser": "^2.3.0",
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "@microsoft/microsoft-graph-client": "^2.0.0",
+    "date-fns": "^2.16.1",
+    "react": "16.13.0",
+    "react-beautiful-dnd": "^13.0.0",
+    "react-dom": "16.13.0",
+    "windows-iana": "^4.2.1"
+  }
+}

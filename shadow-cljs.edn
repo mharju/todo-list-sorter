@@ -1,0 +1,9 @@
+{:source-paths ["src" "env/dev"]
+ :dependencies [[reagent/reagent "1.0.0-alpha2"]
+                [re-frame/re-frame "1.1.1"]
+                [cider/cider-nrepl "0.25.2"]]
+ :dev-http {9500 "public"} 
+ :builds {:app {:target :browser
+                :output-dir "public/js"
+                :asset-path "/js"
+                :modules {:main {:init-fn todo.core/main!}}}}}
